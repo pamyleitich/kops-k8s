@@ -27,6 +27,8 @@
  sudo adduser kops
  sudo echo "kops  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/kops
  sudo su - kops
+
+sudo vi /etc/ssh/sshd_config (we had to change #password authetification) 
  ```
  ##  2a) install AWSCLI using the apt package manager
   ```sh
