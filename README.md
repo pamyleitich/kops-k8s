@@ -74,8 +74,8 @@ You Created. --> Save.
     
        vi .bashrc
 	# Give Unique Name And S3 Bucket which you created.
-	export NAME=pamy36.k8s.local
-	export KOPS_STATE_STORE=s3://pamy36kops
+	export NAME=pam36.k8s.local
+	export KOPS_STATE_STORE=s3://class36pl
      #then run 
       source .bashrc  
 	
